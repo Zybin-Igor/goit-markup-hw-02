@@ -1,0 +1,172 @@
+/*
+универсальный селектро
+селектор id
+селектор тега
+селектор класу
+селектор атрибуту
+селектор наследия
+селектор ребенка
+*/
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.accent {
+    font-family: 'Raleway','Roboto', 'sans-serif';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.logo {
+    font-family: 'Raleway','Roboto', 'sans-serif';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.studio-app {
+    font-family: 'Roboto','Raleway', 'sans-serif';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
+}
+
+.change-color:hover,
+.change-color:focus {
+    color: #4D5AE5;
+}
+.studio-contact {
+    font-family: 'Roboto','Raleway', 'sans-serif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+.reklama {
+color:#ffffff;
+background-color: #2e2f42;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+}
+.model-btn {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+background: #4D5AE5;
+}
+.model-bth-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.visually-hidden {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+.our-advantages {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+.text-decoration {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+.our-affairs {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.text-decoration-footer {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #E7E9FC;
+}
+.btn {
+color: #4D5AE5;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+cursor: pointer;
+}
+.btn:hover,.btn-text:hover {
+background: #4D5AE5; color: #FFFFFF; 
+}
+.btn-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+}
+.btn-text:focus {
+color: #FFFFFF;
+}
+.block-footer {
+    background-color: #2e2f42;
+}
+.accent-studio {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color: #F4F4FD;
+}
+/*Page 1 - secion-4*/
+.our-team {
+background: #F4F4FD;
+}
