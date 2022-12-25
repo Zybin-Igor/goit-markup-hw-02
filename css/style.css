@@ -14,72 +14,71 @@ a {
     text-decoration: none;
 }
 
+:root {
+  --brand-color:  #4D5AE5;
+  --fond-page-color: #FFFFFF;
+  --logo-color:#2E2F42;
+  --text-decoration-color:#434455;
+  --section-page-color:#2e2f42;
+  --text-decoration-footer:#E7E9FC;
+}
+
 body {
-font-family:'Roboto';
-color: #FFFFFF;
+font-family:'Roboto','sans-serif';
+color: var(--fond-page-color);
 }
 .accent {
-    font-family: 'Raleway','Roboto', 'sans-serif';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-color: #4D5AE5;
+color: var(--brand-color);
 }
 .logo {
     font-family: 'Raleway','Roboto', 'sans-serif';
-font-style: normal;
-font-weight: 800;
+font-weight: 900;
 font-size: 18px;
 line-height: 1.33;
-display: flex;
-align-items: center;
 text-transform: uppercase;
-color: #2E2F42;
+color: var(--logo-color);
 }
 .studio-app {
-font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #2E2F42;
+color: var(--logo-color);
 }
-
+.change-color {
+font-size: 16px;
+line-height: 1.5;
+color: var (--text-decoration-color);
+}
 .change-color:hover,
 .change-color:focus {
-    color: #4D5AE5;
+    color: var(--brand-color);
 }
-.studio-contact {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #434455;
+.studio-app:hover,
+.studio-app:focus {
+    color: var(--brand-color);
 }
+
+.solutions {
+background-color: var(--section-page-color);
+}
+
 .reklama {
-/*color:#ffffff;*/
-background-color: #2e2f42;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
+font-weight: 900;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 }
 .model-btn {
-background: #4D5AE5;
-color: #FFFFFF;
+background-color:var(--brand-color);
+color: var(--fond-page-color);
+
 cursor: pointer;
 }
 .model-bth-text {
-font-style: normal;
-font-weight: 600;
+font-family: inherit;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-color: #FFFFFF;
 cursor: pointer;
 }
 
@@ -95,66 +94,66 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
+.text-background-color {
+    background-color: var(--fond-page-color);
+}
 .our-advantages {
-font-style: normal;
-font-weight: 600;
+font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
-color: #2E2F42;
+color: var(--logo-color);
 }
 .text-decoration {
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--text-decoration-color);
 }
 .our-affairs {
-font-style: normal;
-font-weight: 600;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--logo-color);
 }
 .text-decoration-footer {
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #E7E9FC;
+color: var(--text-decoration-footer);
 }
 .btn {
-color: #4D5AE5;
+color: var(--brand-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 8px 16px;
-border: 1px solid #E7E9FC;
+border: 1px solid var(--text-decoration-footer);
 border-radius: 4px;
 cursor: pointer;
 }
-.btn:hover,.btn-text:hover {
-background: #4D5AE5; color: #FFFFFF;
+.btn:hover,
+.btn:focus {
+background: var(--brand-color); 
+color: var(--fond-page-color);
 }
 .btn-text {
-font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 }
 .btn-text:focus {
-color: #FFFFFF;
+color: var(--fond-page-color);
 }
 .block-footer {
-    background-color: #2e2f42;
+    background-color: var(--section-page-color);
 }
 .accent-studio {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
+font-weight: 900;
 font-size: 18px;
 line-height: 1.16;
 color: #F4F4FD;
