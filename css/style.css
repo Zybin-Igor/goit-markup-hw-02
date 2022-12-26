@@ -28,6 +28,7 @@ font-family:'Roboto','sans-serif';
 color: var(--fond-page-color);
 }
 .accent {
+letter-spacing: 0.03em;
 color: var(--brand-color);
 }
 .logo {
@@ -35,22 +36,23 @@ color: var(--brand-color);
 font-weight: 900;
 font-size: 18px;
 line-height: 1.33;
-text-transform: uppercase;
+letter-spacing: 0.03em;
 color: var(--logo-color);
 }
 .studio-app {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--logo-color);
 }
-.change-color {
+.studio-app-contact {
 font-size: 16px;
 line-height: 1.5;
-color: var (--text-decoration-color);
+color: var(--text-decoration-color);
 }
-.change-color:hover,
-.change-color:focus {
+.studio-app-contact:hover,
+.studio-app-contact:focus {
     color: var(--brand-color);
 }
 .studio-app:hover,
@@ -67,21 +69,18 @@ font-weight: 900;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
+letter-spacing: 0.02em;
 }
 .model-btn {
-background-color:var(--brand-color);
-color: var(--fond-page-color);
-
-cursor: pointer;
-}
-.model-bth-text {
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
+letter-spacing: 0.04em;
+background-color:var(--brand-color);
+color: var(--fond-page-color);
 cursor: pointer;
 }
-
 .visually-hidden {
 position: absolute;
 white-space: nowrap;
@@ -101,11 +100,13 @@ margin: -1px;
 font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: var(--logo-color);
 }
 .text-decoration {
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--text-decoration-color);
 }
 .our-affairs {
@@ -114,22 +115,22 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
+letter-spacing: 0.02em;
 color: var(--logo-color);
 }
 .text-decoration-footer {
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--text-decoration-footer);
 }
 .btn {
 color: var(--brand-color);
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+letter-spacing: 0.04em;
 padding: 8px 16px;
 border: 1px solid var(--text-decoration-footer);
 border-radius: 4px;
@@ -140,14 +141,7 @@ cursor: pointer;
 background: var(--brand-color); 
 color: var(--fond-page-color);
 }
-.btn-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-}
-.btn-text:focus {
-color: var(--fond-page-color);
-}
+
 .block-footer {
     background-color: var(--section-page-color);
 }
@@ -156,6 +150,7 @@ color: var(--fond-page-color);
 font-weight: 900;
 font-size: 18px;
 line-height: 1.16;
+letter-spacing: 0.03em;
 color: #F4F4FD;
 }
 /*Page 1 - secion-4*/
