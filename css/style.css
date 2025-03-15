@@ -1,159 +1,150 @@
-/*
-универсальный селектро
-селектор id
-селектор тега
-селектор класу
-селектор атрибуту
-селектор наследия
-селектор ребенка
-*/
-ul, ol {
-    list-style: none;
+body {
+	font-family: 'Roboto', sans-serif; /* По умолчанию Regular */
+	background-color: #FFFFFF;
+}
+ul {
+	list-style-type: none;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
+/* button {
 
-:root {
-  --brand-color:  #4D5AE5;
-  --fond-page-color: #FFFFFF;
-  --logo-color:#2E2F42;
-  --text-decoration-color:#434455;
-  --section-page-color:#2e2f42;
-  --text-decoration-footer:#E7E9FC;
+	cursor: pointer;
+} */
+/*---Header шапка сайту--*/
+/* .header {
 }
-
-body {
-font-family:'Roboto','sans-serif';
-color: var(--fond-page-color);
-}
-.accent {
-letter-spacing: 0.03em;
-color: var(--brand-color);
-}
-.logo {
-    font-family: 'Raleway','Roboto', 'sans-serif';
-font-weight: 900;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-color: var(--logo-color);
-}
-.studio-app {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--logo-color);
-}
-.studio-app-contact {
-font-size: 16px;
-line-height: 1.5;
-color: var(--text-decoration-color);
-}
-.studio-app-contact:hover,
-.studio-app-contact:focus {
-    color: var(--brand-color);
-}
-.studio-app:hover,
-.studio-app:focus {
-    color: var(--brand-color);
-}
-
-.solutions {
-background-color: var(--section-page-color);
-}
-
-.reklama {
-font-weight: 900;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-}
-.model-btn {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.04em;
-background-color:var(--brand-color);
-color: var(--fond-page-color);
-cursor: pointer;
-}
-.visually-hidden {
-position: absolute;
-white-space: nowrap;
-width: 1px;
-height: 1px;
-overflow: hidden;
-border: 0;
-padding: 0;
-clip: rect(0 0 0 0);
-clip-path: inset(50%);
-margin: -1px;
-}
-.text-background-color {
-    background-color: var(--fond-page-color);
-}
-.our-advantages {
-font-weight: 700;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--logo-color);
-}
-.text-decoration {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-decoration-color);
-}
-.our-affairs {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-text-transform: capitalize;
-letter-spacing: 0.02em;
-color: var(--logo-color);
-}
-.text-decoration-footer {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-decoration-footer);
-}
-.btn {
-color: var(--brand-color);
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-padding: 8px 16px;
-border: 1px solid var(--text-decoration-footer);
-border-radius: 4px;
-cursor: pointer;
-}
-.btn:hover,
-.btn:focus {
-background: var(--brand-color); 
-color: var(--fond-page-color);
-}
-
-.block-footer {
-    background-color: var(--section-page-color);
-}
-.accent-studio {
-    font-family: 'Raleway';
-font-weight: 900;
+.header-navigation {
+} */
+.header-navigation-logo {
+	font-weight: 700;
 font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-color: #F4F4FD;
+text-transform: uppercase;
 }
-/*Page 1 - secion-4*/
-.our-team {
-background: #F4F4FD;
+
+.accent {
+	color:#4D5AE5;
+}
+
+.header-navigation-link {
+	font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+
+.header-navigation-link:hover,
+.header-navigation-link:focus {
+	color: #404BBF;
+}
+
+.address-link {
+	
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
+}
+.address-link:hover,
+.address-link:focus {
+	color: #404BBF;
+}
+.text {
+	
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
+}
+/*---Header шапка сайту--*/
+/*----section 1 _Hero-------*/
+/* .hero {
+} */
+.hero-title {
+	font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color:#FFFFFF;
+background-color:#2E2F42;
+}
+.hero-btn {
+	font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color:#FFFFFF;
+background-color:#4D5AE5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: #404BBF;
+}
+/*----section 1 _Hero-------*/
+
+/*-----section 2 _Skils-----*/
+.skils-title {
+	font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+/*-----section 2 _Skils-----*/
+
+/*-----Section 3 _Our Team-----*/
+.title-grand {
+	font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color:#2E2F42
+}
+.title-midi {
+	font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color:#2E2F42
+}
+.ourteam-title {
+	font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color:#2E2F42
+}
+/*-----Section 3 _Our Team-----*/
+/*-----section 4 _Our Portfolio-----*/
+/* .ourportfolio {
+
+} */
+
+/*-----section 4 _Our Portfolio-----*/
+/*-----section 5 _Footer-----*/
+.footer {
+	background-color:#2E2F42
+}
+.footer-navigation-logo {
+	font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+	color:#FFFFFF
+}
+.footer-text {
+	
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#F4F4FD
 }
