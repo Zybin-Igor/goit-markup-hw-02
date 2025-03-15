@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif; /* По умолчанию Regular */
 	background-color: #FFFFFF;
+	color: #434455
 }
 ul {
 	list-style-type: none;
@@ -8,8 +9,10 @@ ul {
 a {
 	text-decoration: none;
 }
+address {
+	font-style: normal;
+}
 /* button {
-
 	cursor: pointer;
 } */
 /*---Header шапка сайту--*/
@@ -18,15 +21,17 @@ a {
 .header-navigation {
 } */
 .header-navigation-logo {
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color:#4D5AE5;
 }
 
 .accent {
-	color:#4D5AE5;
+	color:#2E2F42;
 }
 
 .header-navigation-link {
@@ -41,6 +46,7 @@ color:#2E2F42;
 .header-navigation-link:focus {
 	color: #404BBF;
 }
+
 
 .address-link {
 	
@@ -64,14 +70,17 @@ color:#434455;
 /*----section 1 _Hero-------*/
 /* .hero {
 } */
+ .hero {
+	background-color:#2E2F42;
+ }
 .hero-title {
 	font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color:#FFFFFF;
-background-color:#2E2F42;
+
 }
 .hero-btn {
 	font-weight: 500;
@@ -80,6 +89,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color:#FFFFFF;
 background-color:#4D5AE5;
+cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -88,6 +98,7 @@ background-color:#4D5AE5;
 /*----section 1 _Hero-------*/
 
 /*-----section 2 _Skils-----*/
+
 .skils-title {
 	font-weight: 500;
 font-size: 20px;
@@ -98,13 +109,21 @@ color:#2E2F42;
 /*-----section 2 _Skils-----*/
 
 /*-----Section 3 _Our Team-----*/
+.ourteam {
+	background-color:#F4F4FD;
+}
+.ourteam-item-
+card {
+	background-color:#FFFFFF
+}
 .title-grand {
 	font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-color:#2E2F42
+text-transform: capitalize;
+color:#2E2F42;
 }
 .title-midi {
 	font-weight: 500;
@@ -124,27 +143,35 @@ color:#2E2F42
 }
 /*-----Section 3 _Our Team-----*/
 /*-----section 4 _Our Portfolio-----*/
-/* .ourportfolio {
+.ourportfolio .title-grand {
+	text-transform: capitalize;
 
-} */
-
+} 
 /*-----section 4 _Our Portfolio-----*/
 /*-----section 5 _Footer-----*/
 .footer {
 	background-color:#2E2F42
 }
 .footer-navigation-logo {
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-	color:#FFFFFF
+	color:#4D5AE5
 }
 .footer-text {
-	
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color:#F4F4FD
+}
+.footer-accent {
+	font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 color:#F4F4FD
 }
